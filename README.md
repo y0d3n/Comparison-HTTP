@@ -1,6 +1,6 @@
 # Comparison-HTTP
 
-HTTP 1.0, 1.1, 20を比較。
+HTTP 1.0, 1.1, 2.0を比較。
 
 ## http
 
@@ -26,7 +26,8 @@ SSLKEYLOGFILE=/tmp/secret.log curl https://example.com/ https://example.com -v -
 
 それぞれ対応したプロトコルとバージョンがファイル名。
 
-`https/secret.log`: HTTPSのシークレットファイル。WireShark`設定>Protocols>TLS>Master-Secret log filename`からインポートすればHTTPSの中身が見れる。
+`https/secret.log`: HTTPSのシークレットファイル。  
+WireShark`設定>Protocols>TLS>Master-Secret log filename`からインポートすればHTTPSの中身が見れる。
 
 ```txt
 .
