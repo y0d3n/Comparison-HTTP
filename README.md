@@ -26,6 +26,8 @@ SSLKEYLOGFILE=/tmp/secret.log curl https://example.com/ https://example.com -v -
 
 それぞれ対応したプロトコルとバージョンがファイル名。
 
+`https/secret.log`: HTTPSのシークレットファイル。WireShark`設定>Protocols>TLS>Master-Secret log filename`からインポートすればHTTPSの中身が見れる。
+
 ```txt
 .
 ├── http
